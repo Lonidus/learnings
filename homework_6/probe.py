@@ -8,6 +8,6 @@ def duplicate_encode(word):
     #         breckets += ")"
     # print(breckets)
     return "".join("(" if word.count(letter) == 1 else ")" for letter in word.lower())
-
+print("Hello")
 
 print(duplicate_encode("abccDLL"))
